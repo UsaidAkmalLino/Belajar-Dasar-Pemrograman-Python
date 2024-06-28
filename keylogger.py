@@ -1,4 +1,4 @@
-#import modul pyinput untuk monitoring keyboard dan bikin lognya
+#import modul pyinput untuk monitoring keyboard dan bikin lognyas
 
 from pynput.keyboard import Key, Listener
 import logging
